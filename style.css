@@ -1,0 +1,57 @@
+*,*::after,*::before{margin:0;
+    padding:0;
+    box-sizing:border-box;}
+.overall{padding:5rem 0 ;}
+h1{font-family: 'Odibee Sans', cursive;}
+h2,h3{font-family: 'Montserrat', sans-serif;font-size:1rem;}
+h1,h2,h3,h4{text-transform:capitalize;}
+.menu{
+    text-align:center;
+     margin-bottom:7px;}
+@media screen and (min-width:700px)
+    {h1{font-size:3rem;letter-spacing:3px;}    
+}
+@media screen and (min-width:700px){.photo{width:200px;}}
+    
+
+@media screen and (min-width:700px){.element{grid-template-columns:225px 1fr;}}
+.underline{width:6rem;
+           height:4px;
+           margin:0 auto;
+           background-color:goldenrod;
+           border-radius:3px;
+         margin-bottom:1rem;}
+.content{display:grid;width:90vw;margin:0 auto;justify-items:center;gap:.7rem 0;}
+@media screen and (min-width:1200px) {.content{grid-template-columns:1fr 1fr;}
+    
+}
+.element{max-width:25rem;
+    display:grid;
+    gap:.7rem 1rem;}
+.photo{width:100%;
+    border:4px solid goldenrod;
+    object-fit:cover;
+    border-radius:5px;height:200px;}
+.desc{display:flex;
+    justify-content:space-between;
+    border-bottom:2px dotted grey;
+    }
+.details{color:gray;width:100%;margin-top:.7rem;}
+.btn-container{display:flex;
+    justify-content:center;
+    margin:4rem 0;}
+.btn-element{
+    border-radius:5px;
+    background:transparent;
+    color:goldenrod;
+    border-top-color:goldenrod ;
+    border-left-color:goldenrod;
+    text-transform:capitalize;
+    padding:.5rem 1rem;
+    margin:0 .5rem;
+    text-align:center;
+    cursor:pointer;
+    transition:background-color 1s ease-out , color 1s ease-out
+}
+.btn-element:hover{background-color:goldenrod;
+    color:white;}
